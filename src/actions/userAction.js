@@ -20,13 +20,13 @@ import firebase from 'firebase'
 export const tryLogin = (login, senha) => dispatch => {
     // Initialize Firebase
     var firebaseConfig = {
-        apiKey: "AIzaSyAHl61YV9Z2J5kBQ4LvpvTuuuYmFkyR-Mk",
-        authDomain: "tasksprofmarcos.firebaseapp.com",
-        databaseURL: "https://tasksprofmarcos.firebaseio.com",
-        projectId: "tasksprofmarcos",
-        storageBucket: "tasksprofmarcos.appspot.com",
-        messagingSenderId: "573959989821",
-        appId: "1:573959989821:web:6bd712865d1f6b16"
+        apiKey: "xxxxx",
+        authDomain: "xxxxx",
+        databaseURL: "xxxxx",
+        projectId: "xxxxx",
+        storageBucket: "xxxxx",
+        messagingSenderId: "xxxxx",
+        appId: "xxxxx"
     };
     if (!firebase.apps.length) {
         firebase.initializeApp(firebaseConfig);
